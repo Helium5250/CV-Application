@@ -4,8 +4,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header>
-      </header>
       <section id='personal'>
         <InputField label='First Name' type='text' />
         <InputField label='Last Name' type='text' />

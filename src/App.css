@@ -1,10 +1,3 @@
-.App {
-  padding: 2em;
-
-  background-color: hsl(18, 22%, 91%);
-  color: hsl(245, 26%, 19%);
-}
-
 section {
   max-width: 50em;
 
@@ -13,13 +6,20 @@ section {
 
   margin: 0 auto;
   padding: 0.5em;
-  margin-bottom: 2em;
 }
 
 section > :last-child {
   grid-column: span 2;
 }
 
-section:after {
+section:not(:last-of-type):after {
   content: '';
+
+  width: 100%;
+  height: 2px;
+  grid-column: span 2;
+
+  margin: 2em 0 1em 0;
+
+  background-color: hsl(9, 8%, 83%);
 }

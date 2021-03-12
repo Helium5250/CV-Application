@@ -3,10 +3,6 @@ import PropTypes from 'prop-types';
 import './inputField.css';
 
 export class InputField extends Component {
-  state = {
-
-  };
-
   static propTypes = {
     label: PropTypes.string.isRequired,
     type: PropTypes.oneOf(['text', 'email', 'tel', 'date', 'textarea']).isRequired
