@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Helium5250/CV-Application/static/css/main.a09734d7.chunk.css",
-    "main.js": "/Helium5250/CV-Application/static/js/main.5141807a.chunk.js",
-    "main.js.map": "/Helium5250/CV-Application/static/js/main.5141807a.chunk.js.map",
+    "main.css": "/Helium5250/CV-Application/static/css/main.847ef969.chunk.css",
+    "main.js": "/Helium5250/CV-Application/static/js/main.2b8aaddb.chunk.js",
+    "main.js.map": "/Helium5250/CV-Application/static/js/main.2b8aaddb.chunk.js.map",
     "runtime-main.js": "/Helium5250/CV-Application/static/js/runtime-main.4a9bf5aa.js",
     "runtime-main.js.map": "/Helium5250/CV-Application/static/js/runtime-main.4a9bf5aa.js.map",
     "static/js/2.b3c8a70e.chunk.js": "/Helium5250/CV-Application/static/js/2.b3c8a70e.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.f6f0f048.chunk.js": "/Helium5250/CV-Application/static/js/3.f6f0f048.chunk.js",
     "static/js/3.f6f0f048.chunk.js.map": "/Helium5250/CV-Application/static/js/3.f6f0f048.chunk.js.map",
     "index.html": "/Helium5250/CV-Application/index.html",
-    "static/css/main.a09734d7.chunk.css.map": "/Helium5250/CV-Application/static/css/main.a09734d7.chunk.css.map",
+    "static/css/main.847ef969.chunk.css.map": "/Helium5250/CV-Application/static/css/main.847ef969.chunk.css.map",
     "static/js/2.b3c8a70e.chunk.js.LICENSE.txt": "/Helium5250/CV-Application/static/js/2.b3c8a70e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4a9bf5aa.js",
     "static/js/2.b3c8a70e.chunk.js",
-    "static/css/main.a09734d7.chunk.css",
-    "static/js/main.5141807a.chunk.js"
+    "static/css/main.847ef969.chunk.css",
+    "static/js/main.2b8aaddb.chunk.js"
   ]
 }
