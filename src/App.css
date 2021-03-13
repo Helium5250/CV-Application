@@ -39,14 +39,12 @@ section> :last-child {
   grid-column: span 2;
 }
 
-section:not(:last-of-type):after {
-  content: '';
+.divider {
+  display: block;
 
-  width: 100%;
   height: 2px;
-  grid-column: span 2;
 
-  margin: 2em 0 1em 0;
+  margin: 2em 2em;
 
   background-color: hsl(9, 8%, 83%);
 }

@@ -58,8 +58,10 @@ export class App extends Component {
     return (
       <div id='App'>
         <PersonalSection />
+        <div className='divider' />
         <EmploymentSection />
         <NewSectionBtn section={EmploymentSection} />
+        <div className='divider' />
         <EducationSection />
         <NewSectionBtn section={EducationSection} />
       </div>
