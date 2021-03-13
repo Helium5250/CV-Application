@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import './inputField.css';
+
+import './inputField.css';import PropTypes from 'prop-types';
 
 export class InputField extends Component {
   static propTypes = {
