@@ -2,6 +2,12 @@ body {
   font-family: 'Mulish';
 }
 
+#App {
+  max-width: 50em;
+  
+  margin: 0 auto;
+}
+
 h2 {
   font-weight: 600;
 }
@@ -26,12 +32,9 @@ nav {
 }
 
 section {
-  max-width: 50em;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
 
-  margin: 0 auto;
   padding: 0.5em;
 }
 
