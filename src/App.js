@@ -60,7 +60,7 @@ export class App extends Component {
         <PersonalSection />
         <EmploymentSection />
         <NewSectionBtn section={EmploymentSection} />
-        <EmploymentSection />
+        <EducationSection />
         <NewSectionBtn section={EducationSection} />
       </div>
     );
