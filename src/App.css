@@ -1,8 +1,13 @@
-#App {
-
+body {
+  font-family: 'Mulish';
 }
 
-input, textarea {
+h2 {
+  font-weight: 600;
+}
+
+input,
+textarea {
   font-size: inherit;
   color: inherit;
   font-family: inherit;
@@ -30,7 +35,7 @@ section {
   padding: 0.5em;
 }
 
-section > :last-child {
+section> :last-child {
   grid-column: span 2;
 }
 
@@ -44,4 +49,58 @@ section:not(:last-of-type):after {
   margin: 2em 0 1em 0;
 
   background-color: hsl(9, 8%, 83%);
+}
+
+.newBtn {
+  display: flex;
+  align-items: center;
+
+  margin: 0 auto;
+
+  border: none;
+  border-radius: 1em;
+  font-size: 1rem;
+  font-weight: 500;
+  color: hsl(249, 14%, 30%);
+  background-color: transparent;
+}
+
+.newBtn svg {
+  margin-right: 0.25em;
+  fill: hsl(249, 14%, 30%);
+}
+
+.inputDiv {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin: 1em;
+}
+
+label {
+  margin-left: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+.inputField {
+  width: 100%;
+}
+
+.inputField> :first-child {
+  width: 100%;
+
+  padding: 0.5em 1em;
+
+  font-size: 0.875rem;
+
+  background-color: hsl(0, 9%, 86%);
+  border: 1px solid hsl(60, 3%, 89%);
+  border-radius: 8px;
+  outline: none;
+}
+
+textarea {
+  height: 8em;
 }

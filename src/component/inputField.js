@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-
-import './inputField.css';import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 export class InputField extends Component {
   static propTypes = {
@@ -13,11 +12,11 @@ export class InputField extends Component {
       <div className='inputDiv'>
         <label>{this.props.label}</label>
         <div className='inputField'>
-        {
-          this.props.type === 'textarea'
-            ? <textarea></textarea>
-            : <input type={this.props.type}></input>
-        }
+          {
+            this.props.type === 'textarea'
+              ? <textarea></textarea>
+              : <input type={this.props.type}></input>
+          }
         </div>
       </div>
     );
