@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-export class InputField extends Component {
+export default class InputField extends Component {
   static propTypes = {
     label: PropTypes.string.isRequired,
     type: PropTypes.oneOf(['text', 'email', 'tel', 'date', 'textarea']).isRequired
@@ -22,5 +22,3 @@ export class InputField extends Component {
     );
   }
 }
-
-export default InputField;
